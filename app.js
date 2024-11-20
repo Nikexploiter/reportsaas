@@ -8,7 +8,7 @@ const Plans = require("./routes/plansRoutes")
 const Reviews = require("./routes/reviewRoutes")
 const Reports = require('./routes/reportRoutes')
 const app = express();
-const cors = require("cors");
+const cors = require("cors"); 
 
 require('dotenv').config({ path: './config/.env' }); // Explicit path
 
